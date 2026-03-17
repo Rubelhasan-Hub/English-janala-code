@@ -38,13 +38,6 @@ const loadLevelWord = (id) => {
         });
 };
 
-// {
-//     "id": 79,
-//     "level": 1,
-//     "word": "Jump",
-//     "meaning": "লাফানো",
-//     "pronunciation": "জাম্প"
-// }
 const loadWordDetail = async (id) => {
     const url = `https://openapi.programming-hero.com/api/word/${id}`
     const res = await fetch(url);
@@ -53,22 +46,6 @@ const loadWordDetail = async (id) => {
 
 }
 
-
-// {
-//     "word": "Eager",
-//     "meaning": "আগ্রহী",
-//     "pronunciation": "ইগার",
-//     "level": 1,
-//     "sentence": "The kids were eager to open their gifts.",
-//     "points": 1,
-//     "partsOfSpeech": "adjective",
-//     "synonyms": [
-//         "enthusiastic",
-//         "excited",
-//         "keen"
-//     ],
-//     "id": 5
-// }
 const displayWordDetails = (word) => {
     console.log(word);
     const detailsBox = document.getElementById('details-container')
