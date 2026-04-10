@@ -1,4 +1,4 @@
-#Project Name:-  ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
 
 
 ## Overview
